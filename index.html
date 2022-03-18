@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Vacunate!</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-lg-between">
+
+      <h1 class="logo me-auto me-lg-0"><a href="index.html">Vacunación</a></h1>
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#about">Inicio</a></li>
+          <li><a class="nav-link scrollto" href="#features">¿Por qué?</a></li>
+          <li><a class="nav-link scrollto" href="#prepare">Pepárate</a></li>
+          <li><a class="nav-link scrollto " href="#contact">Contacto</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <a href="#about" class="get-started-btn scrollto">Jorge Barrientos</a>
+
+    </div>
+  </header><!-- End Header -->
+
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+            <img src="assets/img/nursevaccine.jpg" class="img-fluid" alt="Nurse">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+            <br>
+            <br>
+            <h3>En Contra Del COVID-19</h3>
+            <p class="content">
+              Vacunate y batallemos juntos contra el COVID, ayuda a reducir el numero de contagios y reduciendo los efectos secundarios, de ir al hospital a estar en tu casa.
+            </p>
+            <p><i class="icon ri-star-s-fill"></i>  Vacunas Seleccionadas!</p>
+            <p><i class="icon ri-shield-check-fill"></i>  Mejor Proteccion</p>
+            <button class="button-invisible" onclick="openForm()"><i class="icon-blue ri-time-fill"></i>     Agendar Cita</button>
+          </div>
+        </div>
+        <div class="row">
+        <div class="form-popup col-lg-12 col-md-6 " id="myForm">
+     <form action="post" class="form-container">
+    <label for="email"><i class="icon-blue ri-map-pin-2-fill"></i><b> Ubicación</b></label>
+    <input type="text" placeholder="Queretaro" name="email" required>
+
+    <label for="psw"><i class="icon-blue ri-calendar-event-fill"></i><b> Fecha</b></label>
+    <input type="date" placeholder="05-05-2022" name="psw" required>
+    <label for="select"><i class="icon-blue ri-medicine-bottle-fill"></i><b> Vacuna</b></label>
+<select name="select">
+  <option value="value1">Aztra Zeneca</option>
+  <option value="value2" selected>Pfizer</option>
+  <option value="value3">Moderna</option>
+</select>
+    <button class="get-started-btn" onclick="closeForm()">Enviar</button>
+  </form>
+</div>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients">
+      <div class="container" data-aos="zoom-in">
+      </div>
+      <div class="row">
+        <div class="graycol pfizer col-lg-3">
+          <img src="assets/img/clients/client-1.png" class="img-fluid">
+        </div>
+        <div class="graycol col-lg-3">
+          <img src="assets/img/clients/client-2.png" class=" img-fluid">
+        </div>
+        <div class=" graycol col-lg-3">
+          <img src="assets/img/clients/client-3.png" class="img-fluid">
+        </div>
+                <div class="graycol col-lg-3">
+          <img src="assets/img/clients/client-4.png" class="img-fluid">
+        </div>
+
+      </div>
+    </section><!-- End Clients Section -->
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class=" col-lg-6 content" data-aos="fade-right">    
+            <h3>¿Por qué debería de vacunarme?</h3>
+            <p class="content">
+              La vacuna es muy importante para ti como para la salud de los demás, recuerda que el COVID-19 es muy contagioso. Ser portador del virus puede afectar tus seres mas queridos, recuerda que la tasa de riesgo aumenta conforme la edad.
+            </p>
+            </div>
+        </div>
+      </div>
+    </section><!-- End Features Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="ri-arrow-down-circle-fill"></i></div>
+              <h4>Minimizar la propagación del virus</h4>
+              <p>Esta comprobado que las vacunas efectivamente previenen contraer el Coronavirus</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="ri-shield-check-fill"></i></div>
+              <h4>Creación de Anticuerpos</h4>
+              <p>Esta comprobado que las vacunas ayudar a crear anticuerpos para conbatir el COVID-19 y claro ayuda tambien a tu sistema inmune</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="ri-group-fill"></i></div>
+              <h4>Cuidar a la gente de tu alrededor</h4>
+              <p>Un beneficio de los mas importantes es que tambien cuidas a las personas que te rodean.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="ri-funds-box-fill"></i></div>
+              <h4>Crear la inmudidad de un grupo</h4>
+              <p>Apoyas tambien al crecimiento de crear una comunidad inmune para asi regresar a la normalidad mas pronto.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+     <!-- ======= prepare Section ======= -->
+    <section id="prepare" class="prepare">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 order-2 order-lg-1" data-aos="fade-left" data-aos-delay="100">
+            <img src="assets/img/counts-img.jpg" class="img-fluid" alt="Nurse">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-1 order-lg-2 content" data-aos="fade-right" data-aos-delay="100">
+            <br>
+            <br>
+            <h1>Preparandose para la vacuna</h1>
+            <h3 class="content">
+              La vacuna es efectiva, pero es mas efectiva en cuerpos saludables, estas son unas recomendaciones para que la vacuna tenga mejores resultados.
+            </h3>
+
+            <div class="dropdown-box"><i class="icono ri-shield-cross-fill"></i><p>Evita las bebidas alcoholicas </p><a><i class="icon ri-arrow-drop-down-fill"></i><i class="icon-up ri-arrow-drop-up-fill "></i></a>
+            <p class="hide">Las bebidas alcoholicas reducen tus defensas y los efectos del alcohol pueden ser confundidos con sintomas.</p>
+            </div>
+
+            <div class="dropdown-box"><i class="icono ri-mental-health-fill"></i><p>Evita el estres.</p><a><i class="icon ri-arrow-drop-down-fill"></i><i class="icon-up ri-arrow-drop-up-fill "></i></a>
+            <p class="hide">El estres es el causante numoer uno de la baja de tu sistema inmune.</p>
+            </div>
+
+             <div class="dropdown-box"><i class="icono ri-bar-chart-box-fill"></i><p>Come saludable </p><a><i class="icon ri-arrow-drop-down-fill"></i><i class="icon-up ri-arrow-drop-up-fill "></i></a>
+              <p class="hide">Comer fruta, verduras y cereales ayudan a desarrollar un sistema inmune mas fuerte.</p>
+            </div>
+
+             <div class="dropdown-box"><i class="icono ri-moon-clear-fill"></i><p>Duerme tus horas</p><a><i class="icon ri-arrow-drop-down-fill"></i><i class="icon-up ri-arrow-drop-up-fill "></i></a>
+              <p class="hide">Cumplir con tus horas de sueño ayudan a recuperarte más pronto</p>
+            </div>
+
+             <div class="dropdown-box"><i class="icono ri-heart-3-fill"></i><p>Haz ejercicio y actividades fisicas</p><a><i class="icon ri-arrow-drop-down-fill"></i><i class="icon-up ri-arrow-drop-up-fill "></i></a>
+              <p class="hide">Recuerda que es importante mantener el cuerpo activo asi como la mente.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Section -->
+    <!-- ======= Features Section ======= -->
+    <section id="contact" class="features">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class=" col-lg-6 content" data-aos="fade-right">    
+            <h3>Contacto de Emergencia</h3>
+            <p class="content">
+              Tenemos linea 24/7 para cualquier emergencia, recuerda, cuidarse es prevenir asi que no dudes en comunicarte con la linea COVID, en caso de tener alguno de los sintomas, de igual forma tenemos asistencia psicologica en caso de requerir, recuerda que el confinamiento nos afecta a todos. 
+            </p>
+            </div>
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+    <!-- ======= About Section ======= -->
+    <section id="about" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row no-gutters">
+          <div class="col-lg-5 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+            <img src="assets/img/doctor.jpg" class="img-fluid" alt="Nurse">
+          </div>
+           <div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch" data-aos="fade-left" data-aos-delay="100">
+            <div class="content d-flex flex-column justify-content-center">
+              <div class="row">
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="icon-boxa">
+                    <i class="icon-contact bx bxs-phone-call"></i>
+                    <h3 class="call"> Llama</h3> <p>442.123.123.1234</p>
+                    <a class="now-btn">Llamar Ahora</a>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="icon-boxa">
+                    <i class="icon-contact bx bxs-message-rounded-dots"></i>
+                    <h3 class="call"> Chat</h3> <p>442.123.123.1234</p>
+                    <a class="now-btn">Escribenos</a>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="icon-boxa">
+                    <i class="icon-contact bx bxs-video"></i>
+                    <h3 class="call">Video-Llamada</h3> <p>442.123.123.1234</p>
+                    <a class="now-btn">Llamar Ahora</a>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="icon-boxa">
+                    <i class="icon-contact bx bxs-envelope"></i>
+                    <h3 class="call">Mensaje</h3> <p>442.123.123.1234</p>
+                    <a class="now-btn">Enviar Mensaje</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+               </div>
+      </div>
+    </section><!-- End About Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>Vacunate</h3>
+              <p>
+              Nuestro objetivo es disminuir la cantidad de casos, asi como la cantidad de bajas que actualmente tenemos. 
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6"></div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Ayuda</h4>
+            <ul>
+              <li><a href="#">Contactanos</a></li>
+              <li><a href="#">Preguntas y Respuestas</a></li>
+              <li><a href="#">Linea directa</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Sobre nosotros</h4>
+            <ul>
+              <li><a href="#">Nosotros</a></li>
+              <li><a href="#">Servicios</a></li>
+              <li><a href="#">Servicios</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>Jorge Barrientos</strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
